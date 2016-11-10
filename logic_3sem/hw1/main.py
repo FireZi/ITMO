@@ -263,7 +263,7 @@ for line in file_in.readlines():
 
 	mp_id = is_mp(line)
 	if (mp_id != [0, 0]):
-		print(' (М.P. ', mp_id[0], ', ', mp_id[1], ')', sep = '', file = file_out)
+		print(' (M.P. ', mp_id[0], ', ', mp_id[1], ')', sep = '', file = file_out)
 		continue
 	print (' Не доказано', file = file_out)
 
